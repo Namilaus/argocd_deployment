@@ -3,6 +3,7 @@ kind: Deployment
 
 metadata:
   name: nginx
+  namespace: namialus
 
 spec:
   replicas: 1
